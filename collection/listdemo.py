@@ -54,7 +54,7 @@
 
 # loop list 
 
-l = ["A","B","C","D","E"]
+# l = ["A","B","C","D","E"]
 
 # for i in l:
 #     print(i)
@@ -75,15 +75,32 @@ l = ["A","B","C","D","E"]
 
 # print(newlist)
 
-fruits = ["apple", "apple","banana", "cherry", "kiwi","orange","mango",]
-flowers = ["rose","lotus","sun-flower","jasmin","lily"]
-# fruits.sort(reverse=True)
-# fruits.reverse()
+# fruits = ["apple", "apple","banana", "cherry", "kiwi","orange","mango",]
+# flowers = ["rose","lotus","sun-flower","jasmin","lily"]
+# # fruits.sort(reverse=True)
+# # fruits.reverse()
 
-# k = fruits.copy()
-# k = list(flowers)
-# k = fruits[::-1]
-# k = fruits+flowers
+# # k = fruits.copy()
+# # k = list(flowers)
+# # k = fruits[::-1]
+# # k = fruits+flowers
+# # print(k)
+
+# print(fruits.count("apple"))
+
+
+# list1 = [1,2,3,4,5,6]
+
+# # list2 = list1.copy()
+# # list2 = list(list1)
+# list2 = list1[:]
+# print(list2)
+
+
+# fruits = ["apple","Banana","Cherry","mango"]
+# k = ["apple" for x in fruits]
 # print(k)
 
-print(fruits.count("apple"))
+# l = ["A","B","C","D","E"]
+
+# [print(i) for i in ["A","B","C","D","E"]]
