@@ -29,3 +29,18 @@
 #     data = f.read()
 #     print(data)
    
+
+
+# with open("download.png","rb") as f:
+#     data = f.read()
+#     print(data)
+
+# with open("test.txt","r+") as f:
+#     f.write("11")
+#     f.seek(0)
+#     data = f.read()
+#     print(data)
+
+import os
+# os.makedirs("Hello")
+# os.rmdir("Hello")
